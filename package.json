@@ -1,0 +1,40 @@
+{
+	"name": "async-image-search",
+	"version": "1.0.0",
+	"description": "Async Google Image Search",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FriendlyUser1/async-image-search.git"
+	},
+	"keywords": [
+		"google-image-search",
+		"images",
+		"search"
+	],
+	"author": "FriendlyUser1",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/FriendlyUser1/async-image-search/issues"
+	},
+	"homepage": "https://github.com/FriendlyUser1/async-image-search#readme",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"cheerio": "^1.0.0"
+	},
+	"devDependencies": {
+		"@types/cheerio": "^0.22.35",
+		"@types/node": "^22.9.1"
+	}
+}
